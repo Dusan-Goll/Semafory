@@ -1,0 +1,88 @@
+html {
+  --sediva: #464242;
+  --seda: #797070;
+  --zelena: #00ff00;
+  --cervena: #ff0000;
+  --zluta: #ffff00;
+}
+
+body {
+  background-color: #f5f5ac;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scena {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.semafory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pro-auta {
+  height: 220px;
+}
+
+#pro-chodce {
+  height: 160px;
+}
+
+.semafor {
+  background-color: var(--sediva);
+  height: 220px;
+  width: 80px;
+  margin: 1rem;
+  border: 4px solid #000;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.svetlo {
+  background-color: var(--seda);
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 25px;
+  border-top: 6px solid #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svetlo img {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #9589d8;
+  font-size: 1rem;
+  height: 2em;
+  width: 8em;
+  margin: 30px;
+  border: none;
+  border-radius: 1em;
+  transition: all 0.3s ease;
+}
+
+button:active {
+  background-color: #5d50af;
+}
